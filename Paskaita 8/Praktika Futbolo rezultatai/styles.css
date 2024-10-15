@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: rgb(21, 21, 51);
+}
+
+h1 {
+  color: yellow;
+}
+
+.heading-span {
+  color: rgb(124, 134, 224);
+}
+
+img {
+  width: 370px;
+  height: 150px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+h4 {
+  color: crimson;
+  margin-top: 0.5rem;
+}
+
+table {
+  color: white;
+  text-align: left;
+  margin: auto;
+}
+
+td {
+  padding: 1rem;
+}
+
+tbody td:first-child {
+  color: rgb(233, 13, 13);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(4, 4, 53);
+}
+tbody tr:nth-child(odd) {
+  background-color: rgb(49, 49, 151);
+}
+
+.table-span {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.win {
+  background-color: green;
+}
+
+.lost {
+  background-color: red;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+}
+
+.draw {
+  background-color: rgb(155, 155, 0);
+}
